@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+.top-container{
+    background-image: url(https://plus.unsplash.com/premium_photo-1675805015359-fda0a96d5842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    height:100vh;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    font-size: larger;
+    font-weight: bold;
+    font-style:normal;
+    text-align: center;
+}
+
+p{
+    margin: 50px 10%;
+    text-align: justify;
+}
+
+.nav-bar{
+    display:flex;
+    position: fixed;
+    background-color: rgb(244, 143, 244);
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4PX 8PX rgba(0, 0,0, 0.5);
+    transition: backhround-color 0.4s;
+}
+
+.nav-bar ul{
+    display:flex;
+    list-style-type: none;
+
+}
+ .nav-bar ul li a{
+   text-decoration: none;
+   margin:0 10px;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar ul li a:hover{
+    color:aliceblue;
+    background-color: grey;
+}
+
+.nav-bar.active{
+    background-color:goldenrod;
+
+}
